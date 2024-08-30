@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="HTML" />
+        <meta name="keywords" content="tecnologias, análise, sistemas, ciência, computação, script, css, html, javascript" />
+        <link rel="stylesheet" type="text/css" href="style.css    " />    
+        <title>Projeto Web</title>
+    </head>
+    
+    <body>
+<!-- Conteúdo para Cabeçalho e Navegação -->    
+        <header>
+          <h1 class="aplicações"><center>Contatos</center></h1>
+          <hr>    
+          <h2><center>Formulário para Contato</center></h2>
+        </header>
+
+<!-- Conteúdo Principal -->
+        <main>
+          <form name="cadastro" action="/submit" method="post" >
+            <table border="1" width="100%" cellspacing="5"
+            cellpading="5">
+              <tr>
+            
+                <td>
+                <label for="f_nome" width="100%">nome:</label><br> 
+              <input  type="text" id="f_nome" name="f_nome" placeholder="digite o nome completo"> 
+              </td>
+            <td>
+              <label for="f_ende" width="100%">endereço: </label><br>
+              <input type="text" id="f_nome" name="f_nome" placeholder="digite o endereço"> 
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <label for="f_email" width="100%">email:</label><br>
+          <input type="text" id="f_nome" name="f_nome" placeholder="digite o email valido,"> 
+          </td>
+        <td>
+          <label for="f_fone" width="100%">telefone:</label><br>
+          <input type="text" id="f_nome" name="f_nome" placeholder="digite o telefone">
+        </td>
+        <tr>
+          <td >
+          <label  for="f_curso" >Curso:</label><br>
+          <select id="f_curso" name="f_curso">
+          
+            <option value="ADS">Análise e desenvolvimento de sistemas</option>
+            <option value="CC">Ciências da computação</option>
+            <option value="SI">Sistema de informação</option>
+            <option value="..." selected>...</option>
+          </select>
+        </td>
+        <td>
+          <label for="f_turno">Turno:</label><br>
+            <input type="radio" id="f_turno" name="f_turno" value="matutino"/>matutino <br>
+            <input type="radio" id="f_turno" name="f_turno" value="vespertino"/>vespertino <br>
+            <input type="radio" id="f_turno" name="f_turno" value="noturno"/>noturno <br>
+        </td>
+      </tr>
+      <tr>
+      <td>
+        <label for="f_arquivo">Enviar Arquivo:</label><br>
+<input type="file" id="f_arquivo" name="f_arquivo"><br>
+
+      </td>
+
+      <td>
+        <label for="f_msg">Mensagem:</label><br>
+        <textarea id="f_msg" name="f_msg" rows="3" cols="30"></textarea>
+        
+        
+      </td>
+    </tr>
+    <tr>
+    <td colspan="">        <input type="checkbox" id="f_check" name="f_check">
+      <label for="f_check">Declaro que as informações cadastradas são verdadeiras e da minha responsabilidade de acordo com os termos legais.</label><br></td>
+  </tr>
+            </table>
+            <input type="submit" value="Enviar">
+
+            <input type="reset" value="Limpar">
+          </form>
+          <p>
+         <center>| <a href="index.html">Retornar</a> |</center>
+        </p>
+      
+        </main>
+
+<!-- Conteúdo para Rodapé -->
+        <footer>
+          <hr>
+          <center>&copy;2024 - Desenvolvido por Cassiano Martinez e Guilherme Zanni</center>
+        </footer>
+    </body>

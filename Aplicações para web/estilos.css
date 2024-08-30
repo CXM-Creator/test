@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: #afafaf;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+
+/*estilização do link*/
+a:link{
+    color:rgb(0,0,0);
+}
+
+a:visited{
+    color: gray;
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
+
+a:active{
+    color: brown
+}

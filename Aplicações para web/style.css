@@ -1,0 +1,71 @@
+ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+ul li a:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  transform: scale(1.4);
+}
+
+ul li a:active {
+  color: purple;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.aplicações {
+  border: blueviolet 2px solid;
+  border-radius: 5px;
+  border-style: inset;
+  width: 500px;
+  margin-left: 500px;
+  margin-right: 500px;
+  text-shadow: purple;
+}
+
+.aplicações {
+  color: rebeccapurple;
+}
+
+.aplicações:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+table {
+  width: 90%;
+  table-layout: fixed;
+}
+
+.font {
+  font: size 50px;
+}
+
+@keyframes animacao {
+  0% {
+    color: purple;
+  }
+  17% {
+    color: white;
+  }
+  40% {
+    color: purple;
+  }
+  70% {
+    color: white;
+  }
+}
+
+.table {
+  text-align: justify;
+}
